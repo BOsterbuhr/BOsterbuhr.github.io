@@ -172,9 +172,9 @@ I want to know whether there is a statistically significant difference in the pr
 
 Our hypothesis will be:
 
-$$H_0: \mu_1 = \mu_2$$ vs. $$H_a: \mu_1 ≠ \mu_2$$
+𝐻0:𝜇1=𝜇2 vs.  𝐻𝑎:𝜇1≠𝜇2
 
-Where $$\mu_1$$ is the mean of Democrat `Over_100` column and $$\mu_2$$ is the mean of Republican `Over_100` column.
+Where 𝜇1 is the mean of Democrat `Over_100` column and 𝜇2 is the mean of Republican `Over_100` column.
 ```python
 test_rep_df = fec_df[fec_df['party'] == 'REP']
 test_dem_df = fec_df[fec_df['party'] == 'DEM']
