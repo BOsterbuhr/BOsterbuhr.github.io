@@ -144,10 +144,10 @@ plt.show()
 ```
 
 ### `Rep_df`:
-![alt text](https://github.com/BOsterbuhr/LambdaSchool/blob/206c932f21a6e5c19de2689db598681080cd7793/Projects/Media/rep_df.png?raw=true "Republican Donations")
+![alt text](https://github.com/BOsterbuhr/BOsterbuhr.github.io/blob/527408e4fe2db19d7dad8703331752a283f0c828/rep_df.png?raw=true "Republican Donations")
 
 ### `Dem_df`:
-![alt text](https://github.com/BOsterbuhr/LambdaSchool/blob/206c932f21a6e5c19de2689db598681080cd7793/Projects/Media/dem_df.png?raw=true "Democrat Donations")
+![alt text](https://github.com/BOsterbuhr/BOsterbuhr.github.io/blob/527408e4fe2db19d7dad8703331752a283f0c828/dem_df.png?raw=true "Democrat Donations")
 
 ```python
 def donation_size(donation):
@@ -204,7 +204,7 @@ this_is_getting_ridiculous = two_party_donation_crosstab.rename(columns={0:'Unde
 this_is_getting_ridiculous.plot.barh(grid=True)
 plt.show()
 ```
-![alt text](https://github.com/BOsterbuhr/LambdaSchool/blob/main/Projects/Media/crosstab.png?raw=true 'Crosstab')
+![alt text]('Crosstab')
 
 # These results will need to be tested again with more samples to draw any conclusions about political donations overall. An import thing to consider is the data contains the last ~100,000 donations of the 2008 presidential election when President Obama was first elected. 
 
@@ -231,4 +231,4 @@ plt.ylabel('Latitude')
 plt.xlabel('Longitude')
 plt.show()
 ```
-![alt text](https://github.com/BOsterbuhr/LambdaSchool/blob/main/Projects/Media/full_USA.png?raw=true 'Full US')
+![alt text](https://github.com/BOsterbuhr/BOsterbuhr.github.io/blob/527408e4fe2db19d7dad8703331752a283f0c828/2008PresidentialCampaignDonations.jpeg?raw=true 'Full US')
