@@ -204,7 +204,7 @@ this_is_getting_ridiculous = two_party_donation_crosstab.rename(columns={0:'Unde
 this_is_getting_ridiculous.plot.barh(grid=True)
 plt.show()
 ```
-![alt text]('Crosstab')
+![alt text](https://github.com/BOsterbuhr/BOsterbuhr.github.io/blob/edca724d67b5b3b54734866cfe7fec3fb77a27f8/crosstab.png?raw=true 'Crosstab')
 
 # These results will need to be tested again with more samples to draw any conclusions about political donations overall. An import thing to consider is the data contains the last ~100,000 donations of the 2008 presidential election when President Obama was first elected. 
 
